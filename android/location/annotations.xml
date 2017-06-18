@@ -1,0 +1,6 @@
+<root>
+  <item
+      name='android.location.LocationManager void unregisterGnssNavigationMessageCallback(android.location.GnssNavigationMessage.Callback) 0'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

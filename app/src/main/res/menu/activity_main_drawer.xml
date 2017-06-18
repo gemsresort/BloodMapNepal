@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/firstAid"
+            android:icon="@mipmap/ic_first_aid"
+            android:title="First Aid" />
+        <item
+            android:id="@+id/map"
+            android:icon="@mipmap/ic_map"
+            android:title="Map" />
+    </group>
+
+
+            <item
+                android:id="@+id/helpLine"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Help Line" />
+            <item
+                android:id="@+id/aboutUs"
+                android:icon="@mipmap/ic_about_us"
+                android:title="About Us" />
+
+</menu>

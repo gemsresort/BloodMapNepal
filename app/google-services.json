@@ -1,0 +1,43 @@
+
+{
+  "project_info": {
+    "project_number": "560941725141",
+    "firebase_url": "https://checkfirebase-80d43.firebaseio.com",
+    "project_id": "checkfirebase-80d43",
+    "storage_bucket": "checkfirebase-80d43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560941725141:android:8a26a8485cec62e6",
+        "android_client_info": {
+          "package_name": "com.example.saroj.layout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560941725141-kekvrae20jbjnjqlpqqd3llsio0audpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHx_4nHvmP1rzu41WF1Wpw9YmhHy8uiSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

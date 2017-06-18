@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saroj.layout.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.saroj.layout.TopFragment"
+        android:id="@+id/TopFragment"
+        tools:layout="@layout/activity_top_fragment"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <fragment
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:name="com.example.saroj.layout.FirstAid"
+        android:layout_gravity="center"
+        android:id="@+id/MidFragment"
+        tools:layout="@layout/activity_first_aid"
+        android:layout_below="@+id/TopFragment"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.53" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.saroj.layout.BottomFragment"
+        android:id="@+id/BottomFragment"
+        tools:layout="@layout/activity_bottom_fragment"
+        android:layout_weight="0.11" />
+
+
+</LinearLayout>

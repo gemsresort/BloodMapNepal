@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="horizontal"
+    tools:context="com.example.saroj.layout.BottomFragment">
+
+
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnFirstAid"
+            android:layout_weight="1"
+            android:background="@color/colorBackground"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTitle"
+
+            />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorBackground"
+            android:text="sign up"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTitle" />
+
+    </LinearLayout>
+
+
